@@ -1,0 +1,111 @@
+/* HEADER */
+* {
+  box-sizing: border-box;
+}
+.html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logo__circle {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #043829;
+  text-align: center;
+  margin-left: 120px;
+}
+.logo__circle i {
+  color: #eed328;
+  font-size: 14px;
+  margin: 12px 0;
+  font-weight: 100;
+}
+.logo h2 {
+  font-size: 35px;
+  display: inline;
+  margin: 0 6px;
+}
+.logo__circle,
+.name {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.navbar ul {
+  list-style: none;
+  margin: 12px 73px;
+  font-size: 17px;
+}
+.navbar ul li a {
+  text-decoration: none;
+}
+.navbar ul li {
+  display: inline;
+  padding: 0 20px;
+}
+/* CAROUSEL */
+.carousel {
+  background-image: url(../img/2.jpg);
+  height: 608px;
+  background-position: top;
+  background-size: cover;
+}
+/* INTRO  */
+.intro__content {
+  width: 80%;
+  margin: 60px auto;
+}
+.intro__text,
+.intro__pic {
+  float: left;
+  width: 50%;
+  padding: 0 30px;
+}
+.intro__text h2 {
+  margin: 0 0 17px;
+  font-size: 33px;
+}
+.intro__text p {
+  color: #5d5757;
+  margin: 0 0 26px;
+}
+.intro__text button {
+  border-radius: 5%;
+  background-color: #f4d407;
+  border: 0;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 26px;
+}
+.intro_pic img {
+  width: 100%;
+  display: inline;
+}
+/* DATA */
+.data {
+  background-color: #eee9e9aa;
+  height: 167px;
+}
+.data__content {
+  width: 70%;
+  margin: 0 auto;
+}
+.data__item {
+  float: left;
+  width: 25%;
+  margin: 24px 0;
+}
+h1,
+.data__p {
+  float: left;
+}
+.data__item h1 {
+  font-size: 50px;
+  margin: 40px 0;
+}
+.data__p {
+  margin: 48px 0 0;
+}
+.data__p p {
+  margin: 0 11px 3px;
+}
